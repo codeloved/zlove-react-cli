@@ -18,12 +18,12 @@ program
 
 if (program.init) {
   const spinner = ora('正在从github下载zlove-react').start();
-  download('https://github.com/codeloved/my-react.git', program.init, function (err) {
+  download('codeloved/my-react', program.init, function (err) {
     if(!err){
       // 可以输出一些项目成功的信息
       console.info(chalk.blueBright('下载成功'));
     }else{
-      // 可以输出一些项目失败的信息
+      console.info(chalk.red('下载失败'));
     }
   })
 }
