@@ -1,0 +1,10 @@
+{
+  "init": {
+    "place": "codeloved/my-react",
+    "branch": ""
+  },
+  "react-ts": {
+    "place": "codeloved/my-react",
+    "branch": "ts"
+  }
+}
