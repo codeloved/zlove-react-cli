@@ -1,6 +1,6 @@
 {
   "name": "zlove-react-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "自动下载react框架",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
     "commander": "^3.0.0",
     "download-git-repo": "^2.0.0",
     "ora": "^3.4.0"

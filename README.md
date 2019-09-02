@@ -7,3 +7,12 @@ zlove-react init 'projectName'
 ```
 npx zlove-react-cli init 'projectName'
 ```
+* 卸载
+```
+npm uninstall zlove-react-cli -g
+```
+* 使用帮助
+```
+zlove-react -h/--help
+```
+* 如果想使用工具创建页面,需要使用npm安装
