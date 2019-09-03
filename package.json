@@ -1,6 +1,6 @@
 {
   "name": "zlove-react-cli",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "自动下载react框架",
   "main": "index.js",
   "scripts": {

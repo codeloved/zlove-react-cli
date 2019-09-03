@@ -1,10 +1,10 @@
 {
-  "init": {
+  "simple": {
     "place": "codeloved/my-react",
     "branch": ""
   },
-  "react-ts": {
+  "ts": {
     "place": "codeloved/my-react",
-    "branch": "ts"
+    "branch": "#ts"
   }
 }

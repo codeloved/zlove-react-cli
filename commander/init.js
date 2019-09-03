@@ -7,7 +7,7 @@ const fs = require('fs')
 const path = require('path')
 
 const option =  program.parse(process.argv).args[0]
-const defaultName = typeof option === 'string' ? option : 'react-project'
+const defaultName = typeof option === 'string' ? option : 'my-project'
 const tplList = require(`${__dirname}/../templates`)
 const tplLists = Object.keys(tplList) || [];
 const question = [
@@ -21,7 +21,7 @@ const question = [
     },
     validate(val) {
       const validate = (val.trim().split(" ")).length === 1
-      return validate || 'Project name is not allowed to have spaces ';
+      return validate || '项目名不能有空格';
     },
     transformer(val) {
       return val;
@@ -94,7 +94,7 @@ module.exports = prompt(question).then(({name, template, description, author}) =
           spinner.stop();
           console.log(chalk.green('project init successfully!'))
           console.log(`
-            ${chalk.bgWhite.black('   Run Application  ')}
+            ${chalk.bgWhite.black('   Run Project  ')}
             ${chalk.yellow(`cd ${name}`)}
             ${chalk.yellow('npm install')}
             ${chalk.yellow('npm start')}
