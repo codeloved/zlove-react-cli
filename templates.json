@@ -1,10 +1,14 @@
 {
   "simple": {
     "place": "codeloved/my-react",
-    "branch": ""
+    "branch": "",
+    "name": "simple",
+    "description": "生成最基础的react模板"
   },
   "ts": {
     "place": "codeloved/my-react",
-    "branch": "#ts"
+    "branch": "#ts",
+    "name": "ts",
+    "description": "生成typescript版本react模板"
   }
 }

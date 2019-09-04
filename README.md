@@ -3,7 +3,7 @@
 npm install zlove-react-cli -g
 zlove-react init 'projectName'
 ```
-* 使用npx
+* 使用npx(推荐)
 ```
 npx zlove-react-cli init 'projectName'
 ```
